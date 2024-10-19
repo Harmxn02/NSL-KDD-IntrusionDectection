@@ -1,0 +1,6 @@
+nsl-kdd/
+*.html
+*.arff
+*.jpg
+KDDTrain+_20Percent.txt
+KDDTest-21.txt
