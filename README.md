@@ -16,4 +16,4 @@ Dataset retrieved from [kaggle.com](<https://www.kaggle.com/datasets/hassan06/ns
 
 ## What I learned from this project
 
-I learned that you can read in a lot of different file formats into Pandas. The dataset here was stored in `.txt`-files, but there were also `.arff`-files, which is a filetype I didn't even know the existance of.
+I learned that you can read in a lot of different file formats into Pandas. The dataset here was stored in `.txt`-files, but there were also `.arff`-files, which is a filetype I didn't know before this project.
