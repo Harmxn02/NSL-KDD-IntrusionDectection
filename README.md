@@ -41,6 +41,6 @@ I learned that you can read in a lot of different file formats into Pandas. The 
 
 The model performs pretty good in general, with an accuracy of **96%**. If we look at the performance per attack type, there are some outliers:
 
-- **Satan**: the precision and f1-score are not on par with the other attack types. In previous runs it was, so this is most likely fixable by training again
+- **Satan**: the precision and f1-score are not on par with the other attack types. In previous runs they were, so this is most likely fixable by training the model again.
 
 - **Warezclient**: the precision and f1-score are not on par with the other attack types. Contrary to Satan, this was the case across different runs.
