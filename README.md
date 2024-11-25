@@ -6,7 +6,7 @@ The NSL-KDD dataset is an improved version of the KDD'99 dataset, which was wide
 
 The dataset includes various types of attacks such as Denial of Service (DoS), Probe, R2L (Remote-to-Local), and U2R (User-to-Root).
 
-Dataset retrieved from [kaggle.com](<https://www.kaggle.com/datasets/hassan06/nslkdd>).
+**Dataset**: NSL-KDD. (2019, April 25). <https://www.kaggle.com/datasets/hassan06/nslkdd>
 
 ## Repository contents
 
@@ -41,6 +41,6 @@ I learned that you can read in a lot of different file formats into Pandas. The 
 
 The model performs pretty good in general, with an accuracy of **96%**. If we look at the performance per attack type, there are some outliers:
 
-- **Satan**: the precision and f1-score is not on par with the other attack types. In previous runs it was, so this is most likely fixable by training again
+- **Satan**: the precision and f1-score are not on par with the other attack types. In previous runs it was, so this is most likely fixable by training again
 
-- **Warezclient**: the precision and f1-score is not on par with the other attack types. Contrary to Satan, this was the case across different runs.
+- **Warezclient**: the precision and f1-score are not on par with the other attack types. Contrary to Satan, this was the case across different runs.
