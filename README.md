@@ -17,3 +17,30 @@ Dataset retrieved from [kaggle.com](<https://www.kaggle.com/datasets/hassan06/ns
 ## What I learned from this project
 
 I learned that you can read in a lot of different file formats into Pandas. The dataset here was stored in `.txt`-files, but there were also `.arff`-files, which is a filetype I didn't know before this project.
+
+## Model performance
+
+### Classification report
+
+|              | precision | recall | f1-score | support |
+| ------------ | --------- | ------ | -------- | ------- |
+| normal       | 1.00      | 0.95   | 0.97     | 12992   |
+| neptune      | 1.00      | 1.00   | 1.00     | 4043    |
+| ipsweep      | 0.97      | 0.97   | 0.97     | 706     |
+| satan        | 0.61      | 0.98   | 0.75     | 711     |
+| smurf        | 0.93      | 1.00   | 0.96     | 511     |
+| portsweep    | 0.97      | 1.00   | 0.98     | 501     |
+| nmap         | 0.88      | 0.99   | 0.93     | 312     |
+| back         | 0.88      | 1.00   | 0.94     | 179     |
+| teardrop     | 1.00      | 1.00   | 1.00     | 166     |
+| warezclient  | 0.48      | 0.99   | 0.65     | 111     |
+|              |           |        |          |         |
+| accuracy     |           |        | 0.96     | 20232   |
+| macro avg    | 0.87      | 0.99   | 0.92     | 20232   |
+| weighted avg | 0.98      | 0.96   | 0.97     | 20232   |
+
+The model performs pretty good in general, with an accuracy of **96%**. If we look at the performance per attack type, there are some outliers:
+
+- **Satan**: the precision and f1-score is not on par with the other attack types. In previous runs it was, so this is most likely fixable by training again
+
+- **Warezclient**: the precision and f1-score is not on par with the other attack types. Contrary to Satan, this was the case across different runs.
