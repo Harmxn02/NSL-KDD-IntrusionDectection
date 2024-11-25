@@ -6,7 +6,7 @@ The NSL-KDD dataset is an improved version of the KDD'99 dataset, which was wide
 
 The dataset includes various types of attacks such as Denial of Service (DoS), Probe, R2L (Remote-to-Local), and U2R (User-to-Root).
 
-Dataset retrieved from [kaggle.com](<https://www.kaggle.com/datasets/hassan06/nslkdd>).
+**Dataset**: NSL-KDD. (2019, April 25). <https://www.kaggle.com/datasets/hassan06/nslkdd>
 
 ## Repository contents
 
